@@ -1,5 +1,4 @@
 <div class="row">
-<<<<<<< HEAD
   <aside class="col-md-4">
     <section class="user_info">
 
@@ -22,7 +21,7 @@ area:<%= @user.area %>
     </section>
   </aside>
   <div class="col-md-8">
-
+<div>
 <%= render 'follow_form' if logged_in? %>
 
 
@@ -39,8 +38,8 @@ area:<%= @user.area %>
       </ol>
     <%= paginate @microposts %>
 <% end %>
-
-
+</div>
+<div>
 
      
 
@@ -50,5 +49,6 @@ area:<%= @user.area %>
         
       </ol>
 
+  </div>
   </div>
 </div>
