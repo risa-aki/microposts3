@@ -26,4 +26,8 @@ Dir.chdir APP_ROOT do
 
   puts "\n== Restarting application server =="
   system "touch tmp/restart.txt"
+<<<<<<< HEAD
 end
+=======
+end
+>>>>>>> d10cec406b552006418d0e74f06f76fa71e18793
